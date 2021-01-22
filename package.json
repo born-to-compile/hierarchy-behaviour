@@ -8,8 +8,7 @@
     "url": "https://github.com/born-to-compile/hierarchy-behaviour"
   },
   "dependencies": {
-    "com.unity.addressables": "1.16.15",
-    "com.dubitlimited.duck.hierarchy-behaviour": "https://github.com/dubit/unity-hierarchy-behaviour.git"
+    "com.unity.addressables": "1.16.15"
   },
   "author": "Born To Compile"
 }
