@@ -1,0 +1,19 @@
+{
+    "name": "BornToCompile.HierarchyBehaviour",
+    "rootNamespace": "BornToCompile.HierarchyBehaviour",
+    "references": [
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:0aab2c9dc52384eefb9fc9e4646817b5",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:68057811dbd0eec4db6a7aadefd95b2e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

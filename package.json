@@ -1,0 +1,14 @@
+﻿{
+  "name": "com.borntocompile.hierarchy-behaviour",
+  "displayName": "Hierarchy Behaviour",
+  "version": "1.0.0",
+  "description": "A collection of extensions to help build and initialize a hierarchical structure of behaviours.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/born-to-compile/hierarchy-behaviour"
+  },
+  "dependencies": {
+    "com.dubitlimited.duck.hierarchy-behaviour": "https://github.com/dubit/unity-hierarchy-behaviour.git#37670c835b8d579a34c082c699e40c19ee1c3dfc"
+  },
+  "author": "Born To Compile"
+}
