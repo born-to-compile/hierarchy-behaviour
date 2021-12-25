@@ -20,12 +20,13 @@ namespace BornToCompile.HierarchyBehaviour.Build
 
 		public override TBehaviour Apply<TBehaviour>(TBehaviour behaviour)
 		{
+			base.Apply(behaviour);
 			if (options.Initialize.Should)
 			{
 				BehaviourUtils.Initialize(behaviour);
 			}
 
-			return base.Apply(behaviour);
+			return behaviour;
 		}
 	}
 
@@ -47,12 +48,12 @@ namespace BornToCompile.HierarchyBehaviour.Build
 
 		public override TBehaviour Apply<TBehaviour>(TBehaviour behaviour)
 		{
+			base.Apply(behaviour);
 			if (options.Initialize.Should)
 			{
 				BehaviourUtils.Initialize(behaviour, options.Initialize.Args);
 			}
-
-			return base.Apply(behaviour);
+			return behaviour;
 		}
 	}
 }
